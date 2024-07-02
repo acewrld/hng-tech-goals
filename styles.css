@@ -69,3 +69,37 @@ footer a:hover {
     text-decoration: underline;
     opacity: 50%;
 }
+
+/* for tablet view */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em
+    }
+
+    section img {
+        width: 120px;
+        height: 120px;
+    }
+
+    footer a {
+        display: block;
+        margin: 10px 0
+    }
+}
+
+/* for mobile view */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em
+    }
+
+    section img {
+        width: 100px;
+        height: 100px;
+    }
+
+    footer a {
+        display: block;
+        margin: 5px 0
+    }
+}
